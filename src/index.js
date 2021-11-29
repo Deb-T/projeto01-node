@@ -4,7 +4,7 @@ const express = require("express");
 const { Client } = require("pg");
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 const connect = async () => {
   const client = new Client({
